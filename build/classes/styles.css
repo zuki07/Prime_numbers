@@ -1,0 +1,55 @@
+.root{
+    -fx-font-size: 16pt;
+    -fx-background-image: url(numbers_background.jpg);
+    -fx-background-size: 1000 750;
+    -fx-font-weight: bolder;
+}
+
+.label{
+    -fx-font-size: 16pt;
+    -fx-text-fill: rgb(13,13,13);
+    -fx-wrap-text: true;
+    -fx-background-color: rgb(242,84,48);
+    -fx-opacity: .8;
+    -fx-background-radius: 50px;
+    -fx-padding: 20px;
+}
+
+#computing_label{
+    -fx-opacity: 1;
+    -fx-padding: 15px;
+}
+
+.button{
+    -fx-base: rgb(134,217,11);
+    -fx-background-radius: 30px;
+    -fx-padding: 7px 15px;
+}
+
+.button:hover{
+    -fx-base: rgb(202, 242, 56);
+    -fx-scale-x: 1.3;
+    -fx-scale-y: 1.3;
+}
+
+#run_button:hover{
+    -fx-rotate: -10;
+}
+
+#close_button:hover{
+    -fx-rotate: 10;
+}
+
+.scroll-pane{
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+
+.scroll-bar{
+    -fx-background-color: rgb(202, 242, 56);
+    -fx-opacity: .9;
+}
+
+.scroll-bar .thumb{
+    -fx-background-color: rgb(242, 46, 98);
+}
